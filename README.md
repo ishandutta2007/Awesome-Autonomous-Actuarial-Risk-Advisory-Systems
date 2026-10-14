@@ -14,7 +14,7 @@
 
 ### *Curated Directory of Enterprise SaaS & Open-Source Actuarial Software, Pricing Engines, Reserving Platforms & Quantitative Risk Systems*
 
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/network/members)
 [![GitHub Watchers](https://img.shields.io/github/watchers/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/watchers)
 
@@ -82,7 +82,7 @@ The following table provides verified commercial data for enterprise actuarial, 
 
 Community-driven, transparent, and auditable open-source libraries for actuarial science, loss reserving, catastrophe modeling, and cyber risk quantification.
 
-*Sorted by **GitHub Star Count** in descending order.*
+*Sorted by **GitHub Stars_Count** in descending order.*
 
 ### 1. [OpenQuake Engine](https://github.com/gem/oq-engine) [![Stars](https://img.shields.io/github/stars/gem/oq-engine?style=social&color=white)](https://github.com/gem/oq-engine/stargazers)
 - **Primary Domain**: 🌪️ Catastrophe Modeling & Seismic Hazard Analysis
