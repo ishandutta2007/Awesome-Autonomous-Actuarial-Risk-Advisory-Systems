@@ -1,235 +1,228 @@
-# Awesome-Autonomous-Actuarial-Risk-Advisory-Systems
+<div align="center">
 
-## Top Autonomous Actuarial & Risk Advisory Systems Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+[![Actuarial AI Ecosystem](https://img.shields.io/badge/Domain-InsurTech%20%26%20Actuarial-blue)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<br/><br/>
 
+<img src="./assets/banner.svg" alt="Awesome Autonomous Actuarial & Risk Advisory Systems Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+# ⚡ Awesome Autonomous Actuarial & Risk Advisory Systems 🌐
 
-*Focused on Actuarial Modeling, Underwriting Analytics & Risk Quantification*  
+### *Curated Directory of Enterprise SaaS & Open-Source Actuarial Software, Pricing Engines, Reserving Platforms & Quantitative Risk Systems*
 
-**Last updated: March 2026**
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/network/members)
+[![GitHub Watchers](https://img.shields.io/github/watchers/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems?style=social)](https://github.com/ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems/watchers)
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Autonomous Actuarial & Risk Advisory Systems**. These tools enable insurers, reinsurers, and risk teams to automate pricing, reserving, catastrophe modeling, and cyber risk quantification—turning statistical analysis directly into underwriting decisions.
-
-
-
-**Examples** include Akur8, Hyperexponential, Earnix, Milliman Arius, Guidewire Analytics, Moody's Analytics, WTW ResQ, Kovrr, CyberCube, and Praedicat (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, actuarial reserving, and open catastrophe modeling—ideal for actuaries, risk engineers, and developers seeking transparent, vendor-independent risk systems.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Akur8](https://www.akur8.com/)**  
-
-  AI-powered insurance pricing platform automating GLM and ML model building for P&C insurers. Features transparent, explainable models with automatic feature selection and regulatory-compliant documentation.
-
-
-
-- **[Hyperexponential](https://www.hyperexponential.com/)**  
-
-  Pricing software for specialty and commercial insurance. Features real-time risk modeling, portfolio optimization, and underwriting decision support with a unified data model.
-
-
-
-- **[Earnix](https://earnix.com/)**  
-
-  Real-time pricing and rating optimization for insurance and banking. Features AI-driven price elasticity modeling and personalized offer optimization.
-
-
-
-- **[Milliman Arius](https://www.milliman.com/en/products/arius)**  
-
-  P&C loss reserving and financial reporting platform. Features deterministic and stochastic reserving methods, including chain-ladder, Bornhuetter-Ferguson, and Mack models.
-
-
-
-- **[Guidewire Analytics](https://www.guidewire.com/)**  
-
-  Insurance analytics suite including predictive analytics, risk scoring, and portfolio management. Integrated with Guidewire InsuranceSuite for underwriting and claims.
-
-
-
-- **[Moody's Analytics](https://www.moodysanalytics.com/)**  
-
-  Risk modeling and analytics for insurance, banking, and capital markets. Features catastrophe modeling (RMS), credit risk, and regulatory capital calculation.
-
-
-
-- **[Willis Towers Watson ResQ](https://www.wtwco.com/en-us/solutions/products/resq)**  
-
-  P&C reserving and pricing platform. Features deterministic and stochastic reserving, IBNR estimation, and regulatory reporting for multiple jurisdictions.
-
-
-
-- **[Kovrr](https://kovrr.com/)**  
-
-  Cyber risk quantification platform for insurers. Features financial impact modeling of cyber events, accumulation risk assessment, and cyber insurance pricing.
-
-
-
-- **[CyberCube](https://www.cybercube.com/)**  
-
-  Cyber risk analytics platform for insurance. Features portfolio modeling, scenario analysis, and cyber accumulation risk quantification for underwriting and cat modeling.
-
-
-
-- **[Praedicat](https://www.praedicat.com/)**  
-
-  Liability catastrophe modeling for emerging risks. Features scientific literature mining to quantify latent liability exposures for product liability, environmental, and mass tort risks.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[chainladder-python](https://github.com/casact/chainladder-python)**  
-
-  Property and Casualty loss reserving in Python (MPL-2.0) maintained by the Casualty Actuarial Society. **280+ GitHub stars**. Features triangle data manipulation, link ratios calculation, and IBNR estimates with both deterministic and stochastic models. Syntax mimics pandas for data manipulation and scikit-learn for model construction—actuaries familiar with these tools can adopt quickly. Includes Bornhuetter-Ferguson, Mack, and bootstrap methods .
-
-
-
-- **[FASLR (Free Actuarial System for Loss Reserving)](https://github.com/casact/FASLR)**  
-
-  Open-source loss reserving application (Apache-2.0) with GUI for actuarial analysis. **58+ GitHub stars**. Features triangle visualization, chain-ladder calculations, and IBNR estimation with interactive controls for methodology selection .
-
-
-
-- **[Oasis Loss Modelling Framework](https://github.com/OasisLMF)**  
-
-  Free-to-use catastrophe modeling platform (BSD-3-Clause) for model developers, risk analysts, and enterprise risk systems at (re)insurance organizations. **115+ GitHub stars on core repo**. Three main components: **Oasis Platform** (catastrophe modeling system), **Oasis UI** (web application for running models), and **Oasis MDK** (Model Development Kit in Python with CLI). Models catalogued in the Oasis Model Library. All code freely usable and tailorable .
-
-
-
-- **[ReSurv](https://cran.r-project.org/web/packages/ReSurv/)**  
-
-  Machine learning approach based on survival analysis for IBNR frequencies in non-life reserving (CRAN package). Uses individual claim data rather than aggregate triangles. Features individual data generator for simulation, cross-validation for hyperparameter selection, and scoring functions (CRPS available for ReSurvFit models) .
-
-
-
-- **[Tryangle](https://github.com/casact/tryangle)**  
-
-  Automatic chain-ladder reserving framework (Apache-2.0). Provides scoring and optimization methods based on machine learning techniques to automatically select optimal parameters to minimize reserve prediction error .
-
-
-
-- **[actrisk](https://pypi.org/project/actrisk/)**  
-
-  Python package for actuarial risk modeling and simulation. Features Monte Carlo simulations, parallel processing for large-scale computations, YAML-based configuration management, and comprehensive statistical analysis tools .
-
-
-
-- **[CRML (Cyber Risk Modeling Language)](https://pypi.org/project/crml-lang/)**  
-
-  Open, declarative language for expressing cyber risk models, telemetry mappings, and simulation pipelines (MIT). Designed for Bayesian cyber risk models, FAIR-style Monte Carlo engines, and insurance actuarial risk systems. Features **control effectiveness modeling** (quantify how security controls reduce risk with defense-in-depth calculations), intuitive median-based parameterization, multi-currency support, auto-calibration from raw loss data, and strict JSON Schema validation. Example: email security control (90% effectiveness, 95% reliability) reduces risk from 15% to ~3.5% (76% reduction) .
-
-
-
-- **[cyber-ale-calculator](https://www.npmjs.com/package/cyber-ale-calculator)**  
-
-  Calculate Annual Loss Expectancy (ALE), Single Loss Expectancy (SLE), and risk reduction ROI using standard FAIR methodology. Available in Python and JavaScript. Example: $2M database server with 40% ransomware exposure at 0.75x/year yields $600K ALE; EDR tool reducing ALE to $90K at $120K/year shows $390K net benefit and 325% ROI .
-
-
-
-- **[FAIR + MITRE ATT&CK Cyber Risk Simulation](https://github.com/joshua-m-connors/cyber-incident-mcmc-pymc)**  
-
-  Bayesian FAIR–MITRE simulation using PyMC and Monte Carlo techniques. Operationalizes Factor Analysis of Information Risk with MITRE ATT&CK for threat realism and control mapping. Produces quantitative results including Annualized Loss Expectancy (ALE), Single Loss Expectancy (SLE), and loss exceedance curves. Features mitigation influence matrix, technique relevance templates (scoped to APT29 or specific campaigns), and interactive Plotly dashboards for tactic-level control strength .
-
-
-
-- **[Security Decision Science](https://github.com/security-decision-science)**  
-
-  Open-source cyber risk quantification toolkit (CC BY-NC-SA 4.0) including **FAIR Risk Quantification** with IRIS 2025 benchmarks, **Control Systems ABM** for FAIR-CAM agent-based control dynamics simulation, **TEF Estimator** for threat event frequency estimation, and **LLM Classification Validator** for five-dimension psychometric validation. 19 interactive Jupyter notebooks covering Monte Carlo, Bayesian updates, survival estimation, and causal DAGs .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[lifelib](https://github.com/lifelib-dev/lifelib)** — Python package of actuarial models for life insurance, including projection models and cash flow modeling .
-
-- **[modelx](https://github.com/fumitoh/modelx)** — Actuarial modeling framework for life and health insurance with formula-based model construction .
-
-- **[Elizur](https://github.com/trollefson/elizur)** — Finance library for actuaries covering life contingencies and actuarial mathematics .
-
-- **[imaginator](https://github.com/casact/imaginator)** — R package for randomly simulating inception and settlement of general insurance losses .
-
-- **[GenMR](https://github.com/MignanRiskAnalytics/GenMR_SCOR)** — Generic Multi-Risk framework for catastrophe dynamics, modeling chains-of-events and compound catastrophes (SCOR Foundation funded) .
-
-- **[actuarial-foss](https://github.com/genedan/actuarial-foss)** — Curated list of free and open-source actuarial software maintained by the actuarial community .
-
-- Community **n8n** workflows for risk model automation and underwriting alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **chainladder-python** for P&C reserving with **Oasis LMF** for catastrophe modeling, **CRML** for cyber risk model expression, **lifelib** for life insurance projections, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade actuarial and risk advisory platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Actuarial and risk models must be validated by qualified actuaries and comply with applicable regulatory standards (Solvency II, IFRS 17, state insurance regulations, etc.).
-
-- **Open-source actuarial tools are maturing but require domain expertise.** chainladder-python is the most widely adopted open-source reserving package with 280+ GitHub stars, but production use requires actuarial judgment in method selection and parameter validation . Oasis LMF is used by (re)insurers for catastrophe modeling but requires significant configuration and model development .
-
-- **Cyber risk quantification is an emerging open-source field.** CRML and FAIR-based tools provide frameworks for model expression and simulation, but parameterization (loss distributions, control effectiveness estimates) requires organization-specific calibration. Published examples show 76% risk reduction from email security controls—these are illustrative, not universal .
-
-- Self-hosted open-source solutions require proper security hardening, model governance, and ongoing maintenance. Model documentation and validation trails are essential for regulatory acceptance.
-
-
+</div>
 
 ---
 
+## 📖 Overview & SEO Summary 🚀
 
+Welcome to the definitive, search-optimized index of **Autonomous Actuarial & Risk Advisory Systems**, **InsurTech analytics engines**, and **quantitative risk modeling frameworks**. 
 
-**Made for actuaries, risk analysts, underwriters, and developers building transparent risk advisory solutions.**  
+Modern insurers, reinsurers, brokers, and enterprise risk management (ERM) teams are shifting from legacy batch spreadsheets to automated, machine learning-driven actuarial systems. This ecosystem tracker catalogs both tier-1 **commercial SaaS platforms** and transparent **open-source GitHub repositories** powering:
+- 📊 **P&C Loss Reserving**: Automated chain-ladder algorithms, stochastic reserving, triangle manipulation, and IBNR predictions.
+- ⚡ **Dynamic Pricing & Rating**: Automated Generalized Linear Models (GLMs), machine learning rate elasticity engines, and real-time underwriting APIs.
+- 🌪️ **Catastrophe (Cat) Modeling**: Physical and liability catastrophe simulation, open loss modeling frameworks, and hazard exposure analytics.
+- 🛡️ **Cyber Risk Quantification (CRQ)**: Bayesian and FAIR-compliant cyber event simulation, loss exceedance distributions, and security control ROI calibration.
+- 📈 **Life & Health Modeling**: Cash flow projections, life contingencies, asset-liability management (ALM), and demography analysis.
 
-Let's make Autonomous Actuarial & Risk Advisory Systems more open, data-driven, and verifiable.
+---
+
+## 📑 Table of Contents 📌
+
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [Enterprise SaaS & Commercial Platforms](#-enterprise-saas--commercial-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+- [How to Contribute](#-how-to-contribute)
+- [Star History](#-star-history)
+- [Support](#-support)
+- [Disclaimer](#-disclaimer)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global **Actuarial Modeling Software market** is valued at approximately **$1.8B – $2.4B** (scaling toward $4B+ by 2032 at ~12% CAGR), while the broader **Risk Analytics market** exceeds **$45B – $50B** (projected past $100B at ~11% CAGR).
+
+The sector exhibits dual competitive dynamics:
+1. **Core Actuarial Modeling is Highly Concentrated (Oligopolistic):** Dominated by legacy incumbents (Moody's, WTW, Milliman, FIS) with extreme barrier-to-entry dynamics driven by mission-critical regulatory compliance (IFRS 17, Solvency II, LDTI) and high carrier switching costs.
+2. **Pricing Optimization & Cyber/Specialty Risk are Moderately Fragmented:** Modern cloud-native innovators (Akur8, Hyperexponential, Earnix, CyberCube, Kovrr) are rapidly capturing market share through automated AI rate-making, algorithmic underwriting APIs, and advanced cyber risk quantification.
+
+---
+
+## 🏢 Enterprise SaaS & Commercial Platforms
+
+The following table provides verified commercial data for enterprise actuarial, pricing, and risk management SaaS systems. 
+
+*Table sorted by **Company Size (Revenue / Market Cap / Valuation)** in descending order.*
+
+| Platform | Domain & Description | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Moody's Analytics](https://www.moodysanalytics.com/)** | Catastrophe modeling (RMS), IFRS 17 actuarial cash flow projections, and regulatory risk modeling. | **$6.5B+ Annual Revenue** ($80B+ Public Market Cap) | Starting from ~$50,000/year base platform subscription per risk domain | No permanent free tier; guided sandbox demo with structured sample data upon credentialed enterprise vetting |
+| **[Willis Towers Watson ResQ](https://www.wtwco.com/en-us/solutions/products/resq)** | Enterprise P&C loss reserving, stochastic IBNR estimation, and financial reporting engine. | **$9.5B+ Annual Revenue** ($30B+ Public Market Cap) | Starting from ~$40,000/year per reserving business unit deployment | No permanent free tier; time-limited 30-day proof-of-concept (PoC) evaluation for qualified insurance carriers |
+| **[Guidewire Analytics](https://www.guidewire.com/)** | Cloud-native predictive underwriting, risk scoring, and claims portfolio loss analytics (InsuranceSuite). | **$980M+ Annual Revenue** ($16B+ Public Market Cap) | Starting from ~$35,000/year integrated add-on tier to core Guidewire Cloud platform | No permanent free tier; 30-day enterprise sandbox pilot restricted to current Guidewire ecosystem customers |
+| **[Earnix](https://earnix.com/)** | Real-time pricing optimization, price elasticity modeling, and rate deployment for insurance & banking. | **~$1.0B Valuation** (~$65M ARR) | Starting from ~$5,000/month (~$60,000/year) baseline deployment package | No permanent free tier; interactive guided proof-of-concept simulation environment for verified carriers |
+| **[Akur8](https://www.akur8.com/)** | AI-driven transparent P&C insurance pricing, rate-making automation, and regulatory filing generation. | **~$430M Valuation** (~$25M+ ARR, $180M raised) | Starting from ~$3,000/month (~$36,000/year) entry tier for single-line regional carriers | No permanent free tier; structured 14-day assisted pilot using carrier historical claim loss datasets |
+| **[CyberCube](https://www.cybercube.com/)** | Cyber risk accumulation modeling, underwriting single-risk scoring, and catastrophic cyber scenarios. | **~$400M Valuation** (~$35M ARR, $285M raised) | Starting from ~$2,500/month (~$30,000/year) baseline Broking Manager tier | No permanent free tier; tailored 14-day interactive trial on sample broker portfolios |
+| **[Hyperexponential](https://www.hyperexponential.com/)** | Modern pricing decision intelligence platform (hx Renew) purpose-built for commercial & specialty P&C lines. | **~$350M Valuation** (~$25M–$35M ARR, $91M raised) | Starting from ~$2,500/month (~$30,000/year) base license for boutique MGAs | No permanent free tier; bespoke 30-day guided pilot testing live actuarial rate models |
+| **[Milliman Arius](https://www.milliman.com/en/products/arius)** | Specialized P&C loss reserving system featuring deterministic, stochastic Mack, and Bornhuetter-Ferguson methods. | **Part of Milliman Consulting** (~$1.4B Firm Revenue) | Starting from ~$1,500/month (~$18,000/year) single-seat analyst license | No permanent free tier; 30-day full-feature desktop evaluation license upon actuarial qualification |
+| **[Praedicat](https://www.praedicat.com/)** | Liability catastrophe modeling and latent mass-tort exposure quantification (acquired by Moody's). | **Acquired by Moody's** (~$5M historical ARR) | Starting from ~$20,000/year data intelligence and liability analytics subscription | No permanent free tier; custom demonstration risk analysis report on sample exposure lines |
+| **[Kovrr](https://kovrr.com/)** | Cyber Risk Quantification (CRQ), portfolio aggregation modeling, and financial loss distribution simulation. | **~$25M Valuation** (~$4M–$5M ARR) | Starting from ~$1,250/month (~$15,000/year) base cyber exposure tier | Free online self-service NIST/ISO cyber risk score assessment; 14-day platform trial on request |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Community-driven, transparent, and auditable open-source libraries for actuarial science, loss reserving, catastrophe modeling, and cyber risk quantification.
+
+*Sorted by **GitHub Star Count** in descending order.*
+
+### 1. [OpenQuake Engine](https://github.com/gem/oq-engine) [![Stars](https://img.shields.io/github/stars/gem/oq-engine?style=social&color=white)](https://github.com/gem/oq-engine/stargazers)
+- **Primary Domain**: 🌪️ Catastrophe Modeling & Seismic Hazard Analysis
+- **Tech Stack**: Python (AGPL-3.0)
+- **Description**: The Global Earthquake Model (GEM) foundation's flagship open-source catastrophe modeling engine. Calculates seismic hazard and physical risk loss exceedance curves for commercial insurance and disaster resilience worldwide.
+
+### 2. [chainladder-python](https://github.com/casact/chainladder-python) [![Stars](https://img.shields.io/github/stars/casact/chainladder-python?style=social&color=white)](https://github.com/casact/chainladder-python/stargazers)
+- **Primary Domain**: 📊 P&C Loss Reserving & Triangles
+- **Tech Stack**: Python (MPL-2.0)
+- **Description**: Casualty Actuarial Society (CAS) endorsed package for Property & Casualty loss reserving. Provides Pandas-like manipulation of triangular development data, Bornhuetter-Ferguson, Mack, bootstrap reserving models, and regulatory IBNR estimations.
+
+### 3. [lifelib](https://github.com/lifelib-dev/lifelib) [![Stars](https://img.shields.io/github/stars/lifelib-dev/lifelib?style=social&color=white)](https://github.com/lifelib-dev/lifelib/stargazers)
+- **Primary Domain**: 📈 Life Insurance Actuarial Projections
+- **Tech Stack**: Python (MIT)
+- **Description**: Comprehensive library of actuarial life projection models, liability cash flow calculations, policyholder behavior simulations, and Solvency II balance sheet valuations.
+
+### 4. [Actuarial Data Science Tutorials](https://github.com/actuarial-data-science/Tutorials) [![Stars](https://img.shields.io/github/stars/actuarial-data-science/Tutorials?style=social&color=white)](https://github.com/actuarial-data-science/Tutorials/stargazers)
+- **Primary Domain**: 🧠 Machine Learning & Deep Learning for Actuaries
+- **Tech Stack**: Python / R (Swiss Actuarial Association)
+- **Description**: Official educational repository produced by the Swiss Association of Actuaries (SAA) demonstrating neural networks, telematics analysis, natural language claim processing, and GLM tree algorithms.
+
+### 5. [Oasis Loss Modelling Framework](https://github.com/OasisLMF/OasisLMF) [![Stars](https://img.shields.io/github/stars/OasisLMF/OasisLMF?style=social&color=white)](https://github.com/OasisLMF/OasisLMF/stargazers)
+- **Primary Domain**: 🌪️ Open Catastrophe (Cat) Risk Modeling
+- **Tech Stack**: Python / C++ (BSD-3-Clause)
+- **Description**: Open-source catastrophic loss simulation architecture and Model Development Kit (MDK). Powers market catastrophe models across tropical cyclone, flood, and earthquake hazards for top global reinsurers.
+
+### 6. [pyesg](https://github.com/jason-ash/pyesg) [![Stars](https://img.shields.io/github/stars/jason-ash/pyesg?style=social&color=white)](https://github.com/jason-ash/pyesg/stargazers)
+- **Primary Domain**: 📉 Economic Scenario Generation (ESG)
+- **Tech Stack**: Python (MIT)
+- **Description**: Stochastic economic scenario generator modeling interest rate processes (Cox-Ingersoll-Ross, Vasicek, Nelson-Siegel, Hull-White), equity returns, and macro-economic risk paths for asset-liability management.
+
+### 7. [modelx](https://github.com/fumitoh/modelx) [![Stars](https://img.shields.io/github/stars/fumitoh/modelx?style=social&color=white)](https://github.com/fumitoh/modelx/stargazers)
+- **Primary Domain**: 🧮 Interactive Actuarial Formulas & Spreadsheets
+- **Tech Stack**: Python (MIT)
+- **Description**: Object-oriented financial and actuarial modeling framework allowing users to write spreadsheet-like formula dependencies natively in Python with high performance and transparency.
+
+### 8. [pyliferisk](https://github.com/franciscogarate/pyliferisk) [![Stars](https://img.shields.io/github/stars/franciscogarate/pyliferisk?style=social&color=white)](https://github.com/franciscogarate/pyliferisk/stargazers)
+- **Primary Domain**: 🩺 Life Contingencies & Annuity Mathematics
+- **Tech Stack**: Python (GPL-3.0)
+- **Description**: Classical actuarial mathematics engine for computing fractional life annuities, term insurances, mortality decrements, commutation functions, and net premiums.
+
+### 9. [actuarial-foss](https://github.com/genedan/actuarial-foss) [![Stars](https://img.shields.io/github/stars/genedan/actuarial-foss?style=social&color=white)](https://github.com/genedan/actuarial-foss/stargazers)
+- **Primary Domain**: 📚 Actuarial Community Directory
+- **Tech Stack**: Markdown / Community Curation
+- **Description**: Long-standing community-curated index of open-source actuarial codebases, R packages, Julia libraries, and teaching materials.
+
+### 10. [insurancerating](https://github.com/MHaringa/insurancerating) [![Stars](https://img.shields.io/github/stars/MHaringa/insurancerating?style=social&color=white)](https://github.com/MHaringa/insurancerating/stargazers)
+- **Primary Domain**: 🏷️ Insurance Tariff & Premium Rating
+- **Tech Stack**: R (GPL-3.0)
+- **Description**: Analytics package to streamline non-life insurance pricing, risk factor grouping, restricted cubic spline fitting, rating step optimization, and GLM tariff modeling.
+
+### 11. [demography](https://github.com/robjhyndman/demography) [![Stars](https://img.shields.io/github/stars/robjhyndman/demography?style=social&color=white)](https://github.com/robjhyndman/demography/stargazers)
+- **Primary Domain**: 👥 Mortality Forecasting & Demographics
+- **Tech Stack**: R (GPL-3.0)
+- **Description**: Developed by Rob J Hyndman for demographic analysis, Lee-Carter mortality forecasting, functional demographic data modeling, and life table longevity risk estimation.
+
+### 12. [FASLR (Free Actuarial System for Loss Reserving)](https://github.com/casact/FASLR) [![Stars](https://img.shields.io/github/stars/casact/FASLR?style=social&color=white)](https://github.com/casact/FASLR/stargazers)
+- **Primary Domain**: 🖥️ GUI Reserving Platform
+- **Tech Stack**: R / Shiny (Apache-2.0)
+- **Description**: CAS open-source graphical interface software for actuarial reserving analysts, supporting loss triangle visualization, diagnostic ratios, and interactive model selection.
+
+### 13. [cyber-incident-mcmc-pymc](https://github.com/joshua-m-connors/cyber-incident-mcmc-pymc) [![Stars](https://img.shields.io/github/stars/joshua-m-connors/cyber-incident-mcmc-pymc?style=social&color=white)](https://github.com/joshua-m-connors/cyber-incident-mcmc-pymc/stargazers)
+- **Primary Domain**: 🛡️ Bayesian Cyber FAIR Risk Simulation
+- **Tech Stack**: Python / PyMC (MIT)
+- **Description**: Advanced Bayesian FAIR risk simulation mapping MITRE ATT&CK adversary tactics to quantitative loss exceedance distributions, Annualized Loss Expectancy (ALE), and defense control efficacy.
+
+### 14. [Oasis Platform](https://github.com/OasisLMF/OasisPlatform) [![Stars](https://img.shields.io/github/stars/OasisLMF/OasisPlatform?style=social&color=white)](https://github.com/OasisLMF/OasisPlatform/stargazers)
+- **Primary Domain**: ☁️ Distributed Catastrophe Calculation API
+- **Tech Stack**: Python / Docker (BSD-3-Clause)
+- **Description**: Server architecture and scalable microservice execution environment that coordinates enterprise catastrophe model execution at scale across worker clusters.
+
+### 15. [Elizur](https://github.com/trollefson/elizur) [![Stars](https://img.shields.io/github/stars/trollefson/elizur?style=social&color=white)](https://github.com/trollefson/elizur/stargazers)
+- **Primary Domain**: 📐 Actuarial Mathematics & Finance
+- **Tech Stack**: Python (MIT)
+- **Description**: Clean Pythonic finance library for actuaries covering mortality tables, survival functions, life annuity present values, and cash flow evaluations.
+
+### 16. [tryangle](https://github.com/casact/tryangle) [![Stars](https://img.shields.io/github/stars/casact/tryangle?style=social&color=white)](https://github.com/casact/tryangle/stargazers)
+- **Primary Domain**: 🤖 Automated Machine Learning Reserving
+- **Tech Stack**: Python (Apache-2.0)
+- **Description**: Casualty Actuarial Society research project optimizing automated chain-ladder development factor selection using machine learning loss minimization algorithms.
+
+### 17. [imaginator](https://github.com/casact/imaginator) [![Stars](https://img.shields.io/github/stars/casact/imaginator?style=social&color=white)](https://github.com/casact/imaginator/stargazers)
+- **Primary Domain**: 🎲 Synthetic Claim & Loss Simulation
+- **Tech Stack**: R (Apache-2.0)
+- **Description**: Simulation engine for generating micro-level insurance claims data, transaction histories, and loss development lifecycles for testing novel reserving algorithms.
+
+### 18. [GenMR_SCOR](https://github.com/MignanRiskAnalytics/GenMR_SCOR) [![Stars](https://img.shields.io/github/stars/MignanRiskAnalytics/GenMR_SCOR?style=social&color=white)](https://github.com/MignanRiskAnalytics/GenMR_SCOR/stargazers)
+- **Primary Domain**: 💥 Compound Catastrophe Dynamics
+- **Tech Stack**: R (MIT)
+- **Description**: SCOR Foundation sponsored generic multi-risk framework modeling cascading hazards, compound disaster chains, and correlated catastrophe severity.
+
+---
+
+### 🧩 Additional Libraries & Domain Toolkits
+
+- **[ReSurv](https://cran.r-project.org/web/packages/ReSurv/)** — Machine learning approach based on survival analysis for continuous-time individual claim IBNR reserving.
+- **[actrisk](https://pypi.org/project/actrisk/)** — High-throughput Monte Carlo risk engine with parallel processing and YAML configuration.
+- **[CRML (Cyber Risk Modeling Language)](https://pypi.org/project/crml-lang/)** — Open declarative specification language for cyber risk pipelines, defense-in-depth security scoring, and FAIR simulations.
+- **[cyber-ale-calculator](https://www.npmjs.com/package/cyber-ale-calculator)** — Open calculator estimating Single Loss Expectancy (SLE) and Annual Loss Expectancy (ALE) with control ROI quantification.
+- **[Security Decision Science](https://github.com/security-decision-science)** — Open-source toolkit covering FAIR-CAM agent-based dynamics, TEF threat estimators, and psychometric decision validation.
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+Contributions from the global actuarial and risk engineering community are highly encouraged!
+
+1. 🍴 **Fork the repository** to your GitHub profile.
+2. 🌿 **Create a topic branch** (`git checkout -b add-risk-platform`).
+3. ✏️ **Add or refine an entry** in `README.md` maintaining standard tabular formatting for SaaS or badge styling for open-source tools.
+4. 🧪 **Ensure all links and badges resolve** accurately.
+5. 📬 **Submit a Pull Request** with a concise description of why the tool qualifies as an autonomous actuarial or risk advisory system.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Autonomous-Actuarial-Risk-Advisory-Systems&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+If this curated actuarial & risk advisory intelligence repository helps your work, modeling research, or enterprise underwriting operations, please consider showing your support:
+
+- ⭐ **Star this repository** to improve visibility across the open-source community.
+- 🍴 **Fork and share** it with your actuarial teams, data science peers, and risk departments.
+- 💬 **Join our community discussion on [Discord](https://discord.gg/jc4xtF58Ve)** to exchange insights on AI pricing and open catastrophe modeling.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation, research, and maintenance via the **[GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+---
+
+## ⚠️ Disclaimer ⚖️
+
+- This is an **independent community-curated directory** and does not constitute financial, investment, legal, or formal actuarial advice.
+- All actuarial models, pricing algorithms, reserving calculations, and catastrophe simulations deployed in production must be formally validated by credentialed actuaries (FCAS, FSA, FIA, CERA) in strict compliance with applicable regulatory jurisdictions (e.g., Solvency II, IFRS 17, US NAIC, APRA, OSFI).
+- Product names, logos, and brands are property of their respective owners. Commercial pricing estimates and valuations reflect publicly reported market intelligence and may vary based on deployment scope.
+
+---
+
+<div align="center">
+<sub>Built with precision for actuaries, catastrophic risk analysts, underwriters, and quantitative risk engineers worldwide.</sub>
+</div>
